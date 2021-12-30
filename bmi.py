@@ -20,3 +20,4 @@ print ("Your Body mass Index is :")
 
 op=["Extremely_Weak","Weak","Normal","Overweight","Obesity","Extreme_Obesity"]
 st.title(op[y_pred[0]])
+
