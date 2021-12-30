@@ -12,6 +12,7 @@ model.fit(x,y)
 xmin=np.min(x,axis=0)
 xmax=np.max(x,axis=0)
 height=st.slider("Height",float(xmin[0]),float(xmax[0]))
+
 weight=st.slider("Weight",float(xmin[1]),float(xmax[1]))
 
 y_pred=model.predict([[height,weight]])
